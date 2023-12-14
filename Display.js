@@ -13,6 +13,12 @@ class Display {
             restar: '-', 
         }
     }
+    borrarTodo() {
+        this.valorActual = '';
+        this.valorAnterior = '';
+        this.tipoOperacion = undefined;
+        this.imprimirValores();
+    }
 
     
 
